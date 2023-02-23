@@ -1,0 +1,23 @@
+h1 {
+  color: #D8097E;  
+  text-align: center;
+}
+h2 {
+  color: #8C579C;
+  text-align: center;
+}
+h3{
+  color: #24468E;
+  text-align: center;
+}
+
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
